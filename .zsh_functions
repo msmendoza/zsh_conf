@@ -1,0 +1,12 @@
+#############
+# Functions #
+#############
+
+# Auto pull all University Syllabus
+upd_syllabus () {
+        for subject path in "${(@kv)syllabus_paths}"; do
+               echo "\nPulling $subject...\n"
+               /usr/local/bin/git -C "${syllabus_paths[$subject]}" pull
+        done
+}
+

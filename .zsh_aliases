@@ -1,0 +1,32 @@
+###########
+# Aliases #
+###########
+
+# Config
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias conf_zsh="vim ~/.zshrc"
+alias conf_aliases="vim ~/.msmendoza_conf/.zsh_aliases"
+alias conf_functions="vim ~/.msmendoza_conf/.zsh_functions"
+alias reload_terminal="source ~/.zshrc && clear"
+
+# Update/Upgrade
+alias upd_sys="/Users/msmendoza/Documents/Shell\ Scripts/upd_everything.sh"
+alias upd_pip="pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U"
+
+# Change directories
+alias iPre_1="cd /Users/msmendoza/University/iPres/iPre\ 1"
+
+# venvs
+alias venvs="cd ~/Programming/Python/venvs"
+alias OR_venv="source ~/Programming/Python/venvs/OR_venv/bin/activate"
+alias AI_venv="source ~/Programming/Python/venvs/AI_venv/bin/activate"
+alias WEB_venv="source ~/Programming/Python/venvs/WEB_venv/bin/activate"
+alias iPre_venv="source ~/Programming/Python/venvs/iPre_venv/bin/activate"
+alias ICS2122_venv="source ~/Programming/Python/venvs/ICS2122_venv/bin/activate"
+alias ICS3413_venv="source ~/Programming/Python/venvs/ICS3413_venv/bin/activate"
+
+# Jupyter
+alias jn="jupyter notebook"
+alias jl="jupyter lab"
+alias jl_conf="nano /Users/msmendoza/.jupyter/jupyter_notebook_config.py"
+
